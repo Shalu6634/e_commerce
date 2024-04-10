@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -43,7 +44,7 @@ class _MyAppState extends State<MyApp> {
                 ),
                 Container(
                   // alignment: Alignment.center,
-                  height: 60,
+                  height: 90,
                   width: double.infinity,
                   alignment: Alignment.center,
                   decoration: const BoxDecoration(color: Colors.white),
@@ -53,7 +54,7 @@ class _MyAppState extends State<MyApp> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          'Exit',
+                          '  Exit',
                           style: TextStyle(fontSize: 25, color: Colors.black),
                         ),
                         Icon(Icons.exit_to_app),
@@ -63,16 +64,15 @@ class _MyAppState extends State<MyApp> {
                 ),
                 Container(
                   alignment: Alignment.center,
-                  height: 60,
+                  height: 90,
                   width: double.infinity,
                   decoration: BoxDecoration(color: Colors.white),
 
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-
                       Text(
-                        'Play',
+                        '  Play',
                         style: TextStyle(fontSize: 25, color: Colors.black),
                       ),
                       Icon(Icons.play_arrow),
@@ -80,7 +80,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
                 Container(
-                  height: 50,
+                  height: 90,
                   width: double.infinity,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(color: Colors.white),
@@ -88,7 +88,7 @@ class _MyAppState extends State<MyApp> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'Pause',
+                        '  Pause',
                         style: TextStyle(fontSize: 25, color: Colors.black),
                       ),
                       Icon(Icons.pause),
@@ -96,14 +96,14 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
                 Container(
-                  height: 50,
+                  height: 90,
                   width: double.infinity,
                   decoration: const BoxDecoration(color: Colors.white),
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'Stop',
+                        '  Stop',
                         style: TextStyle(fontSize: 25, color: Colors.black),
                       ),
                       Icon(Icons.stop),
@@ -111,29 +111,31 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
                 Container(
-                  height: 50,
+                  height: 90,
                   width: double.infinity,
                   decoration: BoxDecoration(color: Colors.white),
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'Close',
+                        '  Close',
                         style: TextStyle(fontSize: 25, color: Colors.black),
                       ),
+                   
                       Icon(Icons.close),
+
                     ],
                   ),
                 ),
                 Container(
-                  height: 50,
+                  height: 90,
                   width: double.infinity,
                   decoration: BoxDecoration(color: Colors.white),
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'Delete',
+                        '  Delete',
                         style: TextStyle(fontSize: 25, color: Colors.black),
                       ),
                       Icon(Icons.delete),
@@ -141,7 +143,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
                 Container(
-                  height: 50,
+                  height: 80,
                   width: double.infinity,
                   decoration: BoxDecoration(
                       color: Colors.white
@@ -149,10 +151,12 @@ class _MyAppState extends State<MyApp> {
                   child:const  Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text('Email',style: TextStyle(
+
+                      Text('  Email',style: TextStyle(
                           fontSize: 25,color: Colors.black
                       ),),
                       Icon(Icons.email),
+
                     ],
                   ),
                 )
