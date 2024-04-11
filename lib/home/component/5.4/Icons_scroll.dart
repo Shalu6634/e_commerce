@@ -34,7 +34,7 @@ class _HomeState extends State<Home> {
           centerTitle: true,
           shadowColor: Colors.black,
           elevation: 5,
-          title: Text(
+          title: const Text(
             'Icons',
             style: TextStyle(
               color: Colors.black,
@@ -71,7 +71,7 @@ class _HomeState extends State<Home> {
                   child: Row(
                     children: List.generate(
                       3,
-                          (index) => IconBox(icon: list[5 + index]),
+                          (index) => IconBox(icon: list[9 + index]),
                     ),
                   ),
                 ),
@@ -79,7 +79,7 @@ class _HomeState extends State<Home> {
                   scrollDirection: Axis.horizontal,
                   child: Row(
                     children: List.generate(
-                      4,
+                      5,
                           (index) => IconBox(icon: list[7 + index]),
                     ),
                   ),
@@ -104,15 +104,18 @@ class _HomeState extends State<Home> {
 List list = [
   Icons.add,
   Icons.settings_backup_restore,
-  Icons.navigate_next,
+  Icons.arrow_back_ios,
+  Icons.arrow_forward_ios_outlined,
   Icons.alarm,
-  Icons.autorenew,
-  Icons.shuffle,
-  Icons.more_vert,
-
+  Icons.rotate_right,
+  Icons.account_circle_outlined,
+  Icons.verified_user,
   Icons.call,
   Icons.search,
   Icons.send,
-  Icons.stop,
-  Icons.play_arrow,
+  Icons.arrow_downward,
+  Icons.open_in_full,
+  Icons.sync_alt_rounded,
+  Icons.more,
+  Icons.wifi_lock,
 ];
