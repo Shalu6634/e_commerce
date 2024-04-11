@@ -1,5 +1,8 @@
-import 'package:e_commerce/home/component/5.4/chess_box.dart';
+
+// import 'package:e_commerce/home/component/5.4/chess_box.dart';
 import 'package:flutter/material.dart';
+
+import 'app/components/5.2/icon.dart';
 
 void main()
 {
@@ -40,8 +43,8 @@ class HomeState extends State<Home> {
       ),
       body: Align(
         child: Container(
-          height: 442,
-          width:442,
+          height: 403,
+          width:406,
           alignment: Alignment.topLeft,
           decoration: BoxDecoration(
               color: Colors.white,
@@ -63,7 +66,6 @@ class HomeState extends State<Home> {
             ],
           ),
         ),
-
       ),
     );
   }
