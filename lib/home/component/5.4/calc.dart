@@ -42,11 +42,14 @@ class _MyAppState extends State<MyApp> {
             // mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Padding(
-                child: Text('$count',style: TextStyle(fontSize: 40,color: Color(0xff9e9e9e)),),
-                padding: const EdgeInsets.only(
-                  top: 150,bottom: 20,
+                child: Text(
+                  '$count',
+                  style: TextStyle(fontSize: 40, color: Color(0xff9e9e9e)),
                 ),
-
+                padding: const EdgeInsets.only(
+                  top: 200,
+                  bottom: 100,
+                ),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -58,10 +61,9 @@ class _MyAppState extends State<MyApp> {
                       });
                     },
                     child: Container(
-                      height: 40,
-                      width: 130,
+                      height: 50,
+                      width: 150,
                       alignment: Alignment.center,
-
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         color: Color(0xff54759e),
@@ -80,8 +82,8 @@ class _MyAppState extends State<MyApp> {
                     },
                     child: Container(
                       alignment: Alignment.center,
-                      height: 40,
-                      width: 130,
+                      height: 50,
+                      width: 150,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         color: Color(0xff54759e),
@@ -95,7 +97,10 @@ class _MyAppState extends State<MyApp> {
                 ],
               ),
               const Padding(
-                padding: EdgeInsets.only(top: 10, bottom: 20,),
+                padding: EdgeInsets.only(
+                  top: 10,
+                  bottom: 10,
+                ),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -108,8 +113,8 @@ class _MyAppState extends State<MyApp> {
                     },
                     child: Container(
                       alignment: Alignment.center,
-                      height: 40,
-                      width: 130,
+                      height: 50,
+                      width: 150,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         color: Color(0xff54759e),
@@ -128,8 +133,8 @@ class _MyAppState extends State<MyApp> {
                     },
                     child: Container(
                       alignment: Alignment.center,
-                      height: 40,
-                      width: 130,
+                      height: 50,
+                      width: 150,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         color: Color(0xff54759e),
@@ -143,7 +148,7 @@ class _MyAppState extends State<MyApp> {
                 ],
               ),
               const Padding(
-                padding: EdgeInsets.only(top: 20,bottom: 20),
+                padding: EdgeInsets.only(bottom: 40),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -156,8 +161,8 @@ class _MyAppState extends State<MyApp> {
                     },
                     child: Container(
                       alignment: Alignment.center,
-                      height: 40,
-                      width: 130,
+                      height: 50,
+                      width: 150,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         color: Color(0xff54759e),
@@ -168,7 +173,6 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ),
                   ),
-
                 ],
               ),
             ],
@@ -178,4 +182,5 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+
 int count = 0;
