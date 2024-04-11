@@ -1,5 +1,8 @@
-import 'package:e_commerce/home/component/5.4/Icon_udf.dart';
+
+// import 'package:e_commerce/home/component/5.4/Icon_udf.dart';
 import 'package:flutter/material.dart';
+
+import 'app/components/5.2/icon.dart';
 
 void main() {
   runApp(IconScroll());
@@ -84,15 +87,15 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                 ),
-                // SingleChildScrollView(
-                //   scrollDirection: Axis.horizontal,
-                //   child: Row(
-                //     children: List.generate(
-                //       4,
-                //           (index) => IconBox(icon: list[10 + index]),
-                //     ),
-                //   ),
-                // ),
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(
+                      4,
+                          (index) => IconBox(icon: list[10 + index]),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
@@ -112,10 +115,11 @@ List list = [
   Icons.verified_user,
   Icons.call,
   Icons.search,
+  Icons.wifi_lock,
   Icons.send,
   Icons.arrow_downward,
   Icons.open_in_full,
   Icons.sync_alt_rounded,
   Icons.more,
-  Icons.wifi_lock,
+
 ];
