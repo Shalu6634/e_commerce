@@ -19,4 +19,5 @@ samples, guidance on mobile development, and a full API reference.
 
 ![calc1-removebg-preview](https://github.com/Shalu6634/e_commerce/assets/149373622/0cbb04cf-ce18-4c51-a0cb-50979bc17c6a)
 ![dynamic-removebg-preview](https://github.com/Shalu6634/e_commerce/assets/149373622/ce77cfe8-ba00-4547-ab35-61b4f844202a)
-![dynamic2-removebg-preview](https://github.com/Shalu6634/e_commerce/assets/149373622/dcf89103-d48e-4964-adb3-19cfdaed6b0b)
+
+![dynamic-removebg-preview](https://github.com/Shalu6634/e_commerce/assets/149373622/40377c47-3589-4bd4-a6c5-b2c734831512)
