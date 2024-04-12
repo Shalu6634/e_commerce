@@ -28,3 +28,8 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ![mission-removebg-preview](https://github.com/Shalu6634/e_commerce/assets/149373622/763e8c3d-2a59-4bbd-aa50-9635859d432a)
+
+
+![door-removebg-preview](https://github.com/Shalu6634/e_commerce/assets/149373622/75eac2e1-66a8-4f5f-bfa9-70ef2a04d97f)
+![mix-up-removebg-preview](https://github.com/Shalu6634/e_commerce/assets/149373622/f63bf74d-a9dc-4037-bc5d-55a466b56fa0)
+![3D_cube-removebg-preview](https://github.com/Shalu6634/e_commerce/assets/149373622/0dbcf926-c215-45ad-acf6-301f79de25d8)
