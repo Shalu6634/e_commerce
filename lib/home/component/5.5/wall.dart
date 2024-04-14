@@ -1,10 +1,9 @@
-import 'package:e_commerce/home/component/5.5/wall_design.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main()
+{
   runApp(MyApp());
 }
-
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
@@ -20,35 +19,106 @@ class _MyAppState extends State<MyApp> {
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Color(0xff212121),
             centerTitle: true,
+            backgroundColor: Color(0xff212121),
             title: const Text(
               'THE WALL',
               style: TextStyle(
-                color: Colors.white,
-                fontSize: 25,
+                color: Colors.white,fontSize: 30,
               ),
             ),
           ),
-          body: Align(
-            alignment: Alignment.topLeft,
-            child: Padding(
-              padding: const EdgeInsets.only(top : 8 ,bottom: 10),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  w1(),
-                  w2(),
-                  w1(),
-                  w2(),
-                  w1(),
-
-                ],
-              ),
-            ),
+          body: Column(
+            children: [
+              w1(),
+              w2(),
+              w1(),
+              w2(),
+              w1(),
+              w2(),
+              w1(),
+            ],
           ),
         ),
       ),
+    );
+  }
+
+  Row w2() {
+    return Row(
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(top: 7,bottom: 5),
+          child: Container(
+            height: 95,
+            width: 140,
+            decoration:const  BoxDecoration(
+                color: Colors.brown
+            ),
+          ),
+        ),
+        SizedBox(width: 10,),
+        Padding(
+          padding: const EdgeInsets.only(top: 7,bottom: 5),
+          child: Container(
+            height: 95,
+            width: 120,
+            decoration: BoxDecoration(
+              color: Colors.brown,
+            ),
+          ),
+        ),
+        SizedBox(width: 10,),
+        Padding(
+          padding: const EdgeInsets.only(top: 7,bottom: 5),
+          child: Container(
+            height: 95,
+            width: 131,
+            decoration:const  BoxDecoration(
+                color: Colors.brown
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Row w1() {
+    return Row(
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(top: 9,bottom: 5 ),
+          child: Container(
+            height: 95,
+            width: 111,
+            decoration: BoxDecoration(
+              color: Colors.brown,
+            ),
+          ),
+        ),
+        SizedBox(width: 10,),
+        Padding(
+          padding: const EdgeInsets.only(top: 9,bottom: 5),
+          child: Container(
+            height: 95,
+            width: 170,
+            decoration: BoxDecoration(
+              color: Colors.brown,
+            ),
+          ),
+        ),
+        SizedBox(width: 10,),
+        Padding(
+          padding: const EdgeInsets.only(top: 9,bottom: 5),
+          child: Container(
+            height: 95,
+            width: 110,
+            decoration: BoxDecoration(
+              color: Colors.brown,
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
