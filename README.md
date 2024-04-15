@@ -38,6 +38,9 @@ samples, guidance on mobile development, and a full API reference.
   <img src = "https://github.com/Shalu6634/e_commerce/assets/149373622/75eac2e1-66a8-4f5f-bfa9-70ef2a04d97f" width = 30% height = 30%>
   <img src = "https://github.com/Shalu6634/e_commerce/assets/149373622/0dbcf926-c215-45ad-acf6-301f79de25d8" width = 30% height = 30%>
   <img src = "https://github.com/Shalu6634/e_commerce/assets/149373622/6d3edadd-dd77-42cb-9402-3ae592fc06d4" width = 30% height = 30%>
-  
 
+  <img src = "https://github.com/Shalu6634/e_commerce/assets/149373622/cbc26343-8b9b-412d-a445-a35a8e967253" width = 30%  height = 30%>
+  <img src = "https://github.com/Shalu6634/e_commerce/assets/149373622/da3622e0-3a90-4fcc-869e-b423246c8d21" width = 30%  height = 30%>
+  <img src="https://github.com/Shalu6634/e_commerce/assets/149373622/589854da-9dc1-40b9-a002-995f022836d7" width = 30%  height = 30%>
 </p>
+
